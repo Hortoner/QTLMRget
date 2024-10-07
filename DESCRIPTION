@@ -1,0 +1,20 @@
+Package: QTLMRget
+Title: QTLMR辅助安装R语言包
+Version: 3.1
+Authors@R: 
+    person("H", "YB", , "2214047750@qq.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: 轻松完成Post GWAS与xQTL MR分析.
+URL: https://qtlmr.pages.dev/
+License:
+    license
+Depends: 
+    R (>= 4.2.0)
+Encoding: UTF-8
+LazyData: true
+Imports:  
+    digest,  
+    do,
+    dplyr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
