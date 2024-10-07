@@ -23,7 +23,7 @@ QTLMRget::getToken()
 QTLMRget::install_QTLMR()
 
 ##配置Rtools、OPENGWAS_JWT与GITHUB_TOKEN的token##
-QTLMR::install_token(OPENGWAS_JWT = " ", GITHUB_TOKEN = NULL)
+QTLMRget::install_token(OPENGWAS_JWT = " ", GITHUB_TOKEN = NULL)
 
 ##安装QTLMR相关依赖包；可重复多次运行该函数，直到所有依赖包安装成功。
 QTLMRget::install_QTLMR_dependence()
