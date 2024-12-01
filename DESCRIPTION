@@ -1,6 +1,6 @@
 Package: QTLMRget
 Title: QTLMR辅助安装R语言包
-Version: 3.5
+Version: 3.6
 Authors@R: 
     person("H", "YB", , "2214047750@qq.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
