@@ -2,8 +2,7 @@ Package: QTLMRget
 Title: QTLMR辅助安装R语言包
 Version: 3.6
 Authors@R: 
-    person("H", "YB", , "2214047750@qq.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person(given = "YB", family ="H", email = "2214047750@qq.com", role = c("aut", "cre"))
 Description: 轻松完成Post GWAS与xQTL MR分析.
 URL: https://github.com/Hortoner/QTLMRget/
 License:
