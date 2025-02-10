@@ -4,32 +4,36 @@
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在现代生物医学研究中，理解基因与疾病之间的因果关系是发现新的治疗靶点的关键；通过Post GWAS与多组学孟德尔随机化分析，能更好探究疾病发病的病理生理机制。QTLMR是一个功能强大的R语言包，整合了 MR、coloc共定位、SMR、FOCUS、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI 和 TWAS 分析等多种算法及多种可视化绘图功能。这些方法共同为快速识别疾病发病的诱因、治疗的潜在靶点提供了一体化的解决方案。
 <br>
+
 #### 更多内容，请关注微信公众号:落叶随风的笔记 https://mp.weixin.qq.com/s/U45PmUPSLI0nkDdIn027Tg
+
 <br>
+
 ### R语言集合软件包安装与更新:
+
 ```r
-##安装remotes包。
+#安装remotes包。
 install.packages("remotes")
 
-##安装QTLMRget包。
+#安装QTLMRget包。
 remotes::install_github("Hortoner/QTLMRget")
 
-##获取token，付费授权；一次授权永久免费更新。
+#获取token，付费授权；一次授权永久免费更新。
 QTLMRget::getToken()
 
-##在线安装；老用户无需重复授权，可直接更新QTLMR包。
+#在线安装；老用户无需重复授权，可直接更新QTLMR包。
 QTLMRget::install_QTLMR()
 
-##配置Rtools、OPENGWAS_JWT与GITHUB_TOKEN的token##
+#配置Rtools、OPENGWAS_JWT与GITHUB_TOKEN的token##
 QTLMRget::install_token(OPENGWAS_JWT = " ", GITHUB_TOKEN = " ")
 
-##安装QTLMR相关依赖包；可重复多次运行该函数，直到所有依赖包安装成功。
+#安装QTLMR相关依赖包；可重复多次运行该函数，直到所有依赖包安装成功。
 QTLMRget::install_QTLMR_dependence()
 
-##加载QTLMR程序包（首次加载需1-2分钟更新内置软件）。
+#加载QTLMR程序包（首次加载需1-2分钟更新内置软件）。
 library(QTLMR)
 
-##查看QTLMR包使用帮助文档。
+#查看QTLMR包使用帮助文档。
 help(package = QTLMR)
 ```
 
