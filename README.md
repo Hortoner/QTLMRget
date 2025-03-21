@@ -2,7 +2,7 @@
 
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系作者：Dr.H E-mail: 2214047750@qq.com**
 <br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在现代生物医学研究中，理解基因与疾病之间的因果关系是发现新的治疗靶点的关键；通过Post GWAS与多组学孟德尔随机化分析，能更好探究疾病发病的病理生理机制。QTLMR是一个功能强大的R语言包，整合了 MR、coloc共定位、SMR、FOCUS、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI 和 TWAS 分析等多种算法及多种可视化绘图功能。这些方法共同为快速识别疾病发病的诱因、治疗的潜在靶点提供了一体化的解决方案。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在现代生物医学研究中，理解基因与疾病之间的因果关系是发现新的治疗靶点的关键；通过Post GWAS与多组学孟德尔随机化分析，能更好探究疾病发病的病理生理机制。QTLMR是一个功能强大的R语言包，整合了MR、gsMap、coloc、PWcoco、SMR、FOCUS、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI、SMulTiXcan、S-PrediXcan、PoPs、FOCUS、FUSION及UTMOST分析等多种算法及多种可视化绘图功能。这些方法共同为快速识别疾病发病的诱因、治疗的潜在靶点提供了一体化的解决方案。
 <br>
 
 #### 更多内容，请关注微信公众号:落叶随风的笔记 https://mp.weixin.qq.com/s/U45PmUPSLI0nkDdIn027Tg
@@ -78,7 +78,7 @@ help(package = QTLMR)
     
     
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QTLMR包为研究人员提供了一套完整且强大的工具，用于揭示基因与疾病之间的因果关系。通过整合 MR、coloc共定位、SMR、FOCUS、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI 和 TWAS 分析等多种算法，QTLMR包帮助研究人员快速识别疾病的潜在治疗靶点。如果你致力于理解基因与疾病的关系并寻找新的治疗靶点或探索疾病发病机制，QTLMR包将是您的理想选择，祝君科研顺利！
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QTLMR包为研究人员提供了一套完整且强大的工具，用于揭示基因与疾病之间的因果关系。通过整合 MR、gsMap、coloc、PWcoco、SMR、FOCUS、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI、SMulTiXcan、S-PrediXcan、PoPs、FOCUS、FUSION及UTMOST分析等多种算法，QTLMR包帮助研究人员快速识别疾病的潜在治疗靶点。如果你致力于理解基因与疾病的关系并寻找新的治疗靶点或探索疾病发病机制，QTLMR包将是您的理想选择，祝君科研顺利！
 <br>
 
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多函数及功能将不断更新，敬请期待...**
