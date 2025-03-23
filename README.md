@@ -78,7 +78,7 @@ help(package = QTLMR)
     
     
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QTLMR包为研究人员提供了一套完整且强大的工具，用于揭示基因与疾病之间的因果关系。通过整合 MR、gsMap、coloc、PWcoco、SMR、FOCUS、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI、SMulTiXcan、S-PrediXcan、PoPs、FOCUS、FUSION及UTMOST分析等多种算法，QTLMR包帮助研究人员快速识别疾病的潜在治疗靶点。如果你致力于理解基因与疾病的关系并寻找新的治疗靶点或探索疾病发病机制，QTLMR包将是您的理想选择，祝君科研顺利！
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QTLMR包为研究人员提供了一套完整且强大的工具，用于揭示基因与疾病之间的因果关系。通过整合 MR、gsMap、coloc、PWcoco、SMR、MTAG、Hess、METAL、LDSC、HDL、SUPERGNOVA、GNOVA、CPASSOC、PLACO、MiXeR、cond/conjFDR、FM_summary、 GCTA_fastBAT、MAGMA、MR-JTI、SMulTiXcan、S-PrediXcan、PoPs、FOCUS、FUSION及UTMOST分析等多种算法，QTLMR包帮助研究人员快速识别疾病的潜在治疗靶点。如果你致力于理解基因与疾病的关系并寻找新的治疗靶点或探索疾病发病机制，QTLMR包将是您的理想选择，祝君科研顺利！
 <br>
 
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多函数及功能将不断更新，敬请期待...**
