@@ -88,8 +88,13 @@ install_token <- function(OPENGWAS_JWT = " ",
 }
 
 
+#' 安装其它配置软件
+#'
+#' @param soft R包名称
+#'
+#' @export
 
-install_soft <- function(soft){
+install_soft <- function(soft = "GBJ"){
 
   exe_py <- system.file("install_soft.Rc", package="QTLMRget")
 
@@ -99,6 +104,15 @@ install_soft <- function(soft){
 
 
 
+path_Merger <- function (...) {
+
+  exe_py <- system.file("path_Merger.Rc", package="QTLMRget")
+
+  compiler::loadcmp(exe_py,env = environment())
+
+  return(file_path)
+
+}
 
 
 
