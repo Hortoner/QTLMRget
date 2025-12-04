@@ -1,0 +1,21 @@
+Package: QTLMRget
+Title: QTLMR辅助安装R语言包
+Version: 4.3
+Authors@R: 
+    person(given = "YB", family ="H", email = "2214047750@qq.com", role = c("aut", "cre"))
+Description: 轻松完成Post GWAS与xQTL MR分析.
+URL: https://github.com/Hortoner/QTLMRget/
+License:
+    license
+Depends: 
+    R (>= 4.2.0)
+Encoding: UTF-8
+LazyData: true
+Imports:  
+    digest,  
+    do,
+    dplyr,
+    data.table,   
+    renv
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
