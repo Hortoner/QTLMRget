@@ -1,6 +1,6 @@
 Package: QTLMRget
 Title: QTLMR辅助安装R语言包
-Version: 4.4
+Version: 4.5
 Authors@R: 
     person(given = "YB", family ="H", email = "2214047750@qq.com", role = c("aut", "cre"))
 Description: 轻松完成Post GWAS与xQTL MR分析.
